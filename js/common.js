@@ -13,4 +13,9 @@ $(document).ready(function() {
 
 	//bxslider
 	$('.slider_wrapper ul').bxSlider();
+
+	//show menu mobile
+	$( ".js_show_menu" ).click(function() {
+	  $( ".head_menu" ).slideToggle( "slow");
+	});
 });
