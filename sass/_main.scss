@@ -168,6 +168,11 @@
 			margin-left: 100px;
 			width: 229px;
 		}
+			.foot_map iframe{
+				filter: gray; 
+				filter: grayscale(1); 
+			   -webkit-filter: grayscale(1); 
+			}
 		.foot_social{
 			float: right;
 			width: 309px;
